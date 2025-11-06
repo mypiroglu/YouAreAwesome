@@ -21,18 +21,18 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .fontWeight(.ultraLight)
                 .foregroundStyle(.red)
-                
+            
             Spacer()
             HStack{
                 Button("Awesome!") {
-                        message = "Awesome"
+                    message = "Awesome"
                 }
                 .buttonStyle(.glassProminent)
                 .font( .title2)
                 .tint(.orange)
-
+                
                 Button("Great!") {
-                        message = "Great!"
+                    message = "Great!"
                 }
                 .buttonStyle(.glassProminent)
                 .font( .title2)
